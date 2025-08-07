@@ -1,19 +1,23 @@
 {
   "name": "@repo/prisma",
   "version": "1.0.0",
-  "main": "index.js",
-  "exports":{
-    "./client": "./src/index.js"
+  
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+  
+  ,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
   "devDependencies": {
     "@repo/typescript-config": "*",
     "prisma": "^6.13.0"
   },
-  "license": "ISC",
-  "type": "commonjs",
-  "description": "",
   "dependencies": {
     "@prisma/client": "^6.13.0"
   }
