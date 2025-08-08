@@ -1,5 +1,5 @@
 import express from 'express';
-//main branch only pus
+//main branch only push chech 2
 import { PrismaClient } from '@repo/prisma/dist/index.js'; // Keep .js only if needed
 
 const client = new PrismaClient();
