@@ -4,6 +4,8 @@ import { PrismaClient } from '@repo/prisma/dist/index.js'; // Keep .js only if n
 // git checkout main/production
 // git branc
 // hey there lets check cicd pipelien
+// modify private and public key 
+
 const client = new PrismaClient();
 const app = express();
 app.use(express.json());
