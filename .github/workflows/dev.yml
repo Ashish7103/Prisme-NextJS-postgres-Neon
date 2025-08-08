@@ -17,7 +17,7 @@ jobs:
       - name: SSH into EC2 and deploy app
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: 13.233.22.44
+          host: 13.234.67.164
           username: ubuntu
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
